@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{24B32C3E-24BD-4CFC-832E-0CEE02BD45BD}</ProjectGuid>
+    <ProjectGuid>{B1E9B8F7-037E-4E54-9CC7-A0CAF15A744C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FizzBuzz</RootNamespace>
-    <AssemblyName>FizzBuzz</AssemblyName>
+    <RootNamespace>CoinCounter</RootNamespace>
+    <AssemblyName>CoinCounter</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
