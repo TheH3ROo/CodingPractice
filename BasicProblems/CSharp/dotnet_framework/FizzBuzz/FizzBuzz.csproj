@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6144ABED-A903-4963-918E-CA46086DC7DE}</ProjectGuid>
+    <ProjectGuid>{24B32C3E-24BD-4CFC-832E-0CEE02BD45BD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>FizzBuzz</RootNamespace>
     <AssemblyName>FizzBuzz</AssemblyName>
