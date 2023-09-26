@@ -1,4 +1,4 @@
-extern crate helper;
+use helper::ReverseStringExt;
 
 fn main() {
     let input: String = helper::get_input_from_user();
@@ -16,12 +16,8 @@ fn main() {
 
 fn is_palindrome(input: &str) -> bool {
     let trimmed_input = input.trim();
-    let reversed = reverse(&trimmed_input);
+    let reversed = trimmed_input.reverse();
     return trimmed_input.eq(&reversed);
-}
-
-fn reverse(s: &str) -> String {
-    s.chars().rev().collect()
 }
 
 //TODO: Finish this fn
