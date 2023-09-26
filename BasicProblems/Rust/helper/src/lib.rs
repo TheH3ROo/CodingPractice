@@ -13,3 +13,19 @@ pub fn get_input_from_user() -> String {
     // Print the user's input
     return input;
 }
+
+pub trait ReverseStringExt {
+    fn reverse(&self) -> String;
+}
+
+impl ReverseStringExt for String {
+    fn reverse(&self) -> String {
+        self.chars().rev().collect()
+    }
+}
+
+impl ReverseStringExt for &str {
+    fn reverse(&self) -> String {
+        self.chars().rev().collect()
+    }
+}
