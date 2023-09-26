@@ -1,7 +1,7 @@
 use helper::ReverseStringExt;
 
 fn main() {
-    let input: String = helper::get_input_from_user();
+    let input: String = helper::get_string_from_user();
     print!("{}", input);
     let palindrome: bool = is_palindrome(&input);
     println!("{}", palindrome);
