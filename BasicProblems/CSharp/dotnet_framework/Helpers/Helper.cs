@@ -6,8 +6,8 @@ namespace Helpers
     {
         public static int GetNumberFromUser()
         {
-            int number = 0;
-            while (number < 1)
+            int number = -1;
+            while (number < 0)
             {
                 Console.Write("Please give me a number:");
                 int.TryParse(Console.ReadLine(), out number);
